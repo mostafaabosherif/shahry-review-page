@@ -1,0 +1,24 @@
+.btn{
+border: none;
+outline: none;
+padding: 1.3rem 4rem;
+border-radius: 3px;
+font-weight: var(--medium-font);
+cursor: pointer;
+font-size: var(--small-font-size);
+}
+.btn--white{
+    background-color: white;
+    color: var(--green); 
+}
+.btn--green{
+    background-color: var(--green);
+    color: var(--white); 
+}
+.btn--animated{
+    transition: all .3s ease;
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 2px 2px 5px rgba(0,0,0,.4);
+    }
+}
