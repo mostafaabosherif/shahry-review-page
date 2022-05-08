@@ -41,6 +41,11 @@
           z-index: 10;
      
   }
+  @media screen and (min-width:1920px){
+       margin-top:-18%;
+          z-index: 10;
+     
+  }
 }
 
 </style>
