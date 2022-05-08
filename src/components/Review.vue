@@ -54,9 +54,9 @@
           type="text"
           class="review-card__form-group-input" v-model="userComment"
         />
-        <div class="alert" v-if="!dataValid">
+        <!-- <div class="alert" v-if="!dataValid">
                     Please enter valid Data
-        </div>
+        </div> -->
       </div>
     </form>
     <div class="review-card__comment"
@@ -244,6 +244,10 @@ export default {
         line-height: 1.3;
         margin-bottom: 2rem;
         padding-bottom: 4rem;
+  //       @media screen and (min-width:1920px){
+  //         margin-top: 2rem;
+     
+  // }
       }
     }
   }
